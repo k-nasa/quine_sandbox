@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+if ARGV.size < 1
+  puts "Usage: ruby generate_quine.rb <program_file>"
+  exit 1
+end
+
+program_file = ARGV[0]
+encoded_data = $stdin.read
+program = File.read(program_file)
+
+header = <<RUBY
+eval$s=%w'
+d="#{encoded_data}"
+e="eval$s=%w"<<39<<($s*3)
+RUBY
+
+footer = <<RUBY
+o[-7,6]=""<<39<<".join"
+puts(o)#'.join
+RUBY
+
+# コメント行を削除
+program = program.lines.reject { |it| it.start_with?("#") }.join
+
+quine = (header + program + footer).lines.map{ |it| it.strip }.join(";")
+
+puts quine

@@ -11,6 +11,3 @@ d="BAhsK0b/AwAPwB+AH8w/wH+A/4D/+PHAw4GDgYfzwIEDBwcAB+4ABwAODgAA3AEOABwcAAC4AxzAP
 ;o[-7,6]=""<<39<<".join"
 ;puts(o)#
 '.join
-
-o<< n[i]==1 ? e[j+=1] : 32
-o<< i%65==64 ? 10 : ""

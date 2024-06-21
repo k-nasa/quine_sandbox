@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+# frozen_string_literal: true
+
+# Ascii artをエンコードするプログラム
+# HOW TO USE
+# 1. Ascii artを作成する
+# ./convert.rb <Ascii art file> <debug mode>
+
+filename = ARGV[0]
+is_debug_mode = !ARGV[1].nil?
+f = File.read(filename)
+aa = f.chars.map do |t|
+  if t == ' '
+    0
+  elsif t == "\n"
+    t
+  else
+    1
+  end
+end * ''
+
+bits = aa.gsub("\n", "").reverse.to_i(2)
+
+width = aa.split("\n").first.size
+height = aa.split("\n").size
+len = width * height - 1
+
+bin = [Marshal.dump(bits)].pack('m').gsub("\n", ' ')
+
+# for debug
+if is_debug_mode
+  puts "width #{width}, height #{height}"
+  puts "#program limits is #{aa.count('1')}"
+  puts "#bits #{bits}"
+  puts "#data bits #{bin}"
+  puts bin.length
+end
+
+puts "#{bin}"
