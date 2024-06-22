@@ -6,13 +6,16 @@ if ARGV.size < 1
 end
 
 program_file = ARGV[0]
-encoded_data = $stdin.read
+width, height, encoded_data = $stdin.read.lines
+
 program = File.read(program_file)
 
 header = <<RUBY
 eval$s=%w'
-d="#{encoded_data}"
 e="eval$s=%w"<<39<<($s*3)
+d="#{encoded_data}"
+w=#{width}
+h=#{height}
 RUBY
 
 footer = <<RUBY

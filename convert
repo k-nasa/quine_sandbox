@@ -51,4 +51,6 @@ if is_debug_mode
   STDERR.puts ""
 end
 
+puts "#{width}"
+puts "#{height}"
 puts "#{bin}"
