@@ -42,7 +42,7 @@ print("\e[2J")
 print("\e[H")
 
 b.chars.map{|c|
-  print(c)
+  print("\e[7m#{c}\e[0m")
   sleep(0.001)
 }
 print("\e[1F")
