@@ -1,5 +1,5 @@
 # 引数を受け取る
-ASCII_ART ?= nasa.txt
+ASCII_ART ?= aa/nasa_icon.txt
 
 .PHONY: run
 run:

@@ -12,11 +12,11 @@ is_debug_mode = !ARGV[1].nil?
 f = File.read(filename)
 aa = f.chars.map do |t|
   if t == ' '
-    0
+    1
   elsif t == "\n"
     t
   else
-    1
+    0
   end
 end.join('')
 
