@@ -26,8 +26,34 @@
 
 n=Marshal.load(d.unpack("m")[0])
 o=""
+b=""
 j=-1
 0.upto(w*h-1){|i|
   o<<((n[i]==1)?e[j+=1]:32)
-  o<<((i%65==64)?10:"")
+  o<<(i%w==(w-1)?10:"")
+
+  b<<((n[i]==1)?59:32)
+  b<<(i%w==w-1?10:"")
 }
+
+o[-7,6]=""<<39<<".join"
+b[-7,6]=""<<39<<".join"
+print("\e[2J")
+print("\e[H")
+
+b.chars.map{|c|
+  print(c)
+  sleep(0.001)
+}
+print("\e[1F")
+o.lines.reverse.map {|line|
+  print("\e[#{w}C")
+  line.gsub("\n", "").chars.reverse.map{|c|
+    print("\e[1D")
+    print(c)
+    print("\e[1D")
+    sleep(0.001)
+  }
+  print("\e[1F")
+}
+print("\e[#{h}S")

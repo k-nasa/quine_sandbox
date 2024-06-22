@@ -19,8 +19,7 @@ h=#{height}
 RUBY
 
 footer = <<RUBY
-o[-7,6]=""<<39<<".join"
-puts(o)#'.join
+#'.join
 RUBY
 
 # コメント行を削除
