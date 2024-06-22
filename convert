@@ -18,23 +18,37 @@ aa = f.chars.map do |t|
   else
     1
   end
-end * ''
+end.join('')
 
 bits = aa.gsub("\n", "").reverse.to_i(2)
 
 width = aa.split("\n").first.size
 height = aa.split("\n").size
-len = width * height - 1
 
 bin = [Marshal.dump(bits)].pack('m').gsub("\n", ' ')
 
 # for debug
 if is_debug_mode
-  puts "width #{width}, height #{height}"
-  puts "#program limits is #{aa.count('1')}"
-  puts "#bits #{bits}"
-  puts "#data bits #{bin}"
-  puts bin.length
+  STDERR.print "\e[32m" # start green color
+  STDERR.puts "=========================="
+  STDERR.puts "converter information"
+  STDERR.puts ""
+  STDERR.print "\e[0m" # stop color
+
+  STDERR.puts "==== program info ==="
+  STDERR.puts "  width #{width}, height #{height}"
+  STDERR.puts "  program limits is #{aa.count('1')}"
+  STDERR.puts ""
+
+  STDERR.puts "==== bits ==="
+  STDERR.puts "  bits #{bits}"
+  STDERR.puts "  bits size: #{bits.size}"
+  STDERR.puts ""
+
+  STDERR.puts "==== data ==="
+  STDERR.puts "  data byte: #{bin}"
+  STDERR.puts "  data size: #{bin.length}"
+  STDERR.puts ""
 end
 
 puts "#{bin}"
