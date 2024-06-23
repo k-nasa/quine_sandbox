@@ -1,0 +1,51 @@
+::::::::::::::::::::::::::::kMMMMMMMMMMMM::::MMMM::::::::kMMMMMMMM::::MMMM:::::::::::::::::::::::::::::
+                            lMMMMMMMMMMMM    MMMM        lMMMMMMMM    MMMM                             
+   ,dddddddddddddddddddd,   lMMMk::::MMMM    MMMMddddddddl::::::::    MMMM    ddddddddddddddddddddd    
+   lMMMMMMMMMMMMMMMMMMMMl   lMMMl    MMMM    MMMMMMMMMMMMl            MMMM    MMMMMMMMMMMMMMMMMMMMM    
+   lMMMk::::::::::::MMMMl   lMMMKddddMMMMddddMMMM::::kMMMl   ,dddd    MMMM    MMMMk::::::::::::MMMM    
+   lMMMl            MMMMl   lMMMMMMMMMMMMMMMMMMMM    lMMMl   lMMMM    MMMM    MMMMl            MMMM    
+   lMMMl            MMMMl   lMMMk::::::::::::MMMM    .:::ldddKMMMMddddMMMM    MMMMl            MMMM    
+   lMMMl            MMMMl   lMMMl            MMMM        lMMMMMMMMMMMMMMMM    MMMMl            MMMM    
+   lMMMl            MMMMl   lMMMk::::    ::::MMMM::::.   lMMMMMMMMddddMMMM    MMMMl            MMMM    
+   lMMMl            MMMMl   lMMMMMMMM    MMMMMMMMMMMMl   lMMMMMMMM    MMMM    MMMMl            MMMM    
+   lMMMk::::::::::::MMMMl   lMMMKdddd    MMMMdddddddd,   ,dddddddd    MMMM    MMMMk::::::::::::MMMM    
+   lMMMMMMMMMMMMMMMMMMMMl   lMMMl        MMMM                         MMMM    MMMMMMMMMMMMMMMMMMMMM    
+   ,dddddddddddddddddddd,   lMMMl    ::::dddd::::    .:::.   .::::    MMMM    ddddddddddddddddddddd    
+                            lMMMl    MMMM    MMMM    lMMMl   lMMMM    MMMM                             
+::::::::::::::::::::::::::::kMMMk::::dddd    dddd::::kMMMl   lMMMM::::MMMM:::::::::::::::::::::::::::::
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM            MMMMMMMMl   lMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+ddddddddddddddddddddMMMMKdddddddddddd    ::::    MMMMKddd,   ,ddddMMMMddddMMMMddddKMMMKdddKMMMMddddMMMM
+                    MMMMl                MMMM    MMMMl            MMMM    MMMM    lMMMl   lMMMM    MMMM
+:::.   .::::::::::::ddddl::::::::::::::::dddd::::dddd,   .::::::::dddd::::MMMM    lMMMk:::kMMMM    MMMM
+MMMl   lMMMMMMMMMMMM    lMMMMMMMMMMMMMMMM    MMMM        lMMMMMMMM    MMMMMMMM    lMMMMMMMMMMMM    MMMM
+MMMl   :KKKKMMMMKKKK    :KKKNMMMNKKKKMMMM    MMMM....    lMMMNKKKK....MMMMMMMM    :KKKKKKKNMMMM    KKKK
+MMMl        MMMM            lMMMl    MMMM    MMMMMMMMl   lMMMl    MMMMMMMMMMMM            lMMMM        
+KKK:        MMMM....     ...lKKKl....MMMM....MMMMKKKKl...lKKKl....KKKKKKKKKKKK     .......dMMMM....    
+            MMMMMMMM    lMMMl   lMMMMMMMMMMMMMMMM    lMMMl   lMMMM                lMMMMMMMMMMMMMMMM    
+    ...     MMMMMMMM....lKKK:   :KKKKKKKKKKKKMMMM    :KKKl...dMMMM....        ....lKKKNMMMNKKKKKKKK    
+   lMMMl    MMMMMMMMMMMMl                    MMMM        lMMMMMMMMMMMM        MMMMl   lMMMl            
+   :KKKl....KKKKKKKKMMMMd....................MMMM....    lMMMMMMMMMMMM    ....KKKKl...lKKKl....    ....
+       lMMMM        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMl   lMMMMMMMMMMMM    MMMM    lMMMl   lMMMM    MMMM
+    ...lKKKK........KKKKKKKKNMMMMMMMMKKKKMMMMKKKKKKKKl...lKKKKKKKKMMMM    KKKK    :KKK:   lMMMM    KKKK
+   lMMMl    MMMMMMMM        lMMMMMMMM    MMMM        lMMMl        MMMM                    lMMMM        
+   lMMMd....KKKKKKKK........dMMMMMMMM    MMMM    ....dMMMl    ....MMMM....             ...dMMMM....    
+   lMMMMMMMM        MMMMMMMMMMMMMMMMM    MMMM    MMMMMMMMl   lMMMMMMMMMMMM            lMMMMMMMMMMMM    
+   lMMMMMMMM        MMMMMMMMMMMMMMMMM    MMMM    MMMMMMMMl   lMMMMMMMMMMMM            lMMMMMMMMMMMM    
+   lMMMd....        MMMMd...dMMMd....    MMMM    ........     ............            lMMMd....MMMMKKKK
+   lMMMl            MMMMl   lMMMl        MMMM                                         lMMMl    MMMMMMMM
+KKKNMMMNKKKKKKKKKKKKMMMMNKKKNMMMl    KKKKMMMMKKKK        :KKK:        KKKKKKKKKKKK:    ...lKKKKMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMl    MMMMMMMMMMMM        lMMMl        MMMMMMMMMMMMl       lMMMMMMMMMMMM
+............................dMMMl    MMMM....MMMMKKKK:    ...lKKKK    MMMM....MMMMl   :KKKl............
+                            lMMMl    MMMM    MMMMMMMMl       lMMMM    MMMM    MMMMl   lMMMl            
+   :KKKKKKKKKKKKKKKKKKKK:   lMMMNKKKKMMMM    MMMM....lKKKKKKKNMMMM    MMMMKKKKMMMMl    ...lKKKK        
+   lMMMMMMMMMMMMMMMMMMMMl   lMMMMMMMMMMMM    MMMM    lMMMMMMMMMMMM    MMMMMMMMMMMMl       lMMMM        
+   lMMMd............MMMMl   lMMMd........    MMMM     ............    ............    :KKKl....KKKKKKKK
+   lMMMl            MMMMl   lMMMl            MMMM                                     lMMMl    MMMMMMMM
+   lMMMl            MMMMl   lMMMl    KKKKKKKK....KKKKKKKKKKKKKKKKKKKKK        KKKK:    ...     ........
+   lMMMl            MMMMl   lMMMl    MMMMMMMM    MMMMMMMMMMMMMMMMMMMMM        MMMMl                    
+   lMMMl            MMMMl   lMMMl    ::::::::ddddMMMMMMMMMMMMMMMMMMMMMddddddddMMMMKddd,        dddd    
+   lMMMl            MMMMl   lMMMl            MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMl        MMMM    
+   lMMMKddddddddddddMMMMl   lMMMl            ::::::::kMMMk:::kMMMM::::MMMMMMMM::::::::.   ,ddddMMMM    
+   lMMMMMMMMMMMMMMMMMMMMl   lMMMl                    lMMMl   lMMMM    MMMMMMMM            lMMMMMMMM    
+   .::::::::::::::::::::.   lMMMl            ddddddddl:::.   lMMMMddddMMMM::::            .::::::::    
+                            lMMMl            MMMMMMMMl       lMMMMMMMMMMMM                             

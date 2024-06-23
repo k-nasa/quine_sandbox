@@ -9,14 +9,19 @@
 
 filename = ARGV[0]
 is_debug_mode = !ARGV[1].nil?
+reverse = !ARGV[2].nil?
+
 f = File.read(filename)
+word_exists = reverse ? 1 : 0
+word_not_exists = reverse ? 0 : 1
+
 aa = f.chars.map do |t|
   if t == ' '
-    1
+    word_exists
   elsif t == "\n"
     t
   else
-    0
+    word_not_exists
   end
 end.join('')
 
