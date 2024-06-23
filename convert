@@ -7,9 +7,23 @@
 # 1. Ascii artを作成する
 # ./convert.rb <Ascii art file> <debug mode>
 
+require 'optparse'
+
+opt = OptionParser.new
+
+is_debug_mode = false
+reverse = false
+
+opt.on('-d', '--debug') do
+  is_debug_mode = true
+end
+opt.on('-r', '--reverse') do
+  reverse = true
+end
+
+opt.parse!(ARGV)
+
 filename = ARGV[0]
-is_debug_mode = !ARGV[1].nil?
-reverse = !ARGV[2].nil?
 
 f = File.read(filename)
 word_exists = reverse ? 1 : 0
