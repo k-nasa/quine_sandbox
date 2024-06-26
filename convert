@@ -41,11 +41,10 @@ aa = f.chars.map do |t|
 end.join('')
 
 bits = aa.gsub("\n", "").reverse.to_i(2)
+bin = [Marshal.dump(bits)].pack('m').gsub("\n", ' ')
 
 width = aa.split("\n").first.size
 height = aa.split("\n").size
-
-bin = [Marshal.dump(bits)].pack('m').gsub("\n", ' ')
 
 # for debug
 if is_debug_mode
