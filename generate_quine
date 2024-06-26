@@ -25,6 +25,7 @@ RUBY
 # コメント行を削除
 program = program.lines.reject { |it| it.start_with?("#") }.join
 
+# 一行のプログラムに変換する
 quine = (header + program + footer).lines.map{ |it| it.strip }.join(";")
 
 puts quine
