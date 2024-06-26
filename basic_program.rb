@@ -28,7 +28,7 @@ n=Marshal.load(d.unpack("m")[0])
 o=""
 b=""
 j=-1
-0.upto(w*h-1){|i|
+0.upto(w * h-1){|i|
   o<<((n[i]!=1)?e[j+=1]:32)
   o<<(i%w==(w-1)?10:"")
 

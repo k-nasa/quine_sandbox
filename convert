@@ -29,6 +29,7 @@ f = File.read(filename)
 word_exists = reverse ? 1 : 0
 word_not_exists = reverse ? 0 : 1
 
+# AAを1と0に変換
 aa = f.chars.map do |t|
   if t == ' '
     word_exists

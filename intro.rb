@@ -19,4 +19,12 @@ self_introduction = {
   ]
 }
 
-puts "#{self_introduction.to_json}"
+# puts "#{self_introduction.to_json}"
+
+eval %w(puts
+"H         e
+ll         o
+,          I
+a          m
+nasa.";puts "hoge"
+).join
