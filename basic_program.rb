@@ -43,7 +43,7 @@ print("\e[H")
 
 b.chars.map{|c|
   print("\e[7m#{c}\e[0m")
-  sleep(0.0001)
+  sleep(0.0005)
 }
 print("\e[1F")
 o.lines.reverse.map {|line|
@@ -52,7 +52,7 @@ o.lines.reverse.map {|line|
     print("\e[1D")
     print(c)
     print("\e[1D")
-    sleep(0.0001)
+    sleep(0.0005)
   }
   print("\e[1F")
 }
